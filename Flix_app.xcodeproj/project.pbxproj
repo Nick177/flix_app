@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		58ADD04A20201AF4007743C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ADD04920201AF4007743C1 /* AppDelegate.swift */; };
-		58ADD04C20201AF4007743C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ADD04B20201AF4007743C1 /* ViewController.swift */; };
 		58ADD04F20201AF4007743C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58ADD04D20201AF4007743C1 /* Main.storyboard */; };
 		58ADD05120201AF4007743C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58ADD05020201AF4007743C1 /* Assets.xcassets */; };
 		58ADD05420201AF4007743C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58ADD05220201AF4007743C1 /* LaunchScreen.storyboard */; };
 		58ADD05F20201AF4007743C1 /* Flix_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ADD05E20201AF4007743C1 /* Flix_appTests.swift */; };
 		58ADD06A20201AF4007743C1 /* Flix_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ADD06920201AF4007743C1 /* Flix_appUITests.swift */; };
+		58ADD0782020339C007743C1 /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ADD0772020339C007743C1 /* NowPlayingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		58ADD04620201AF4007743C1 /* Flix_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58ADD04920201AF4007743C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58ADD04B20201AF4007743C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58ADD04E20201AF4007743C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58ADD05020201AF4007743C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58ADD05320201AF4007743C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		58ADD06520201AF4007743C1 /* Flix_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Flix_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58ADD06920201AF4007743C1 /* Flix_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flix_appUITests.swift; sourceTree = "<group>"; };
 		58ADD06B20201AF4007743C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58ADD0772020339C007743C1 /* NowPlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		58ADD04820201AF4007743C1 /* Flix_app */ = {
 			isa = PBXGroup;
 			children = (
+				58ADD0772020339C007743C1 /* NowPlayingViewController.swift */,
 				58ADD04920201AF4007743C1 /* AppDelegate.swift */,
-				58ADD04B20201AF4007743C1 /* ViewController.swift */,
 				58ADD04D20201AF4007743C1 /* Main.storyboard */,
 				58ADD05020201AF4007743C1 /* Assets.xcassets */,
 				58ADD05220201AF4007743C1 /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58ADD04C20201AF4007743C1 /* ViewController.swift in Sources */,
+				58ADD0782020339C007743C1 /* NowPlayingViewController.swift in Sources */,
 				58ADD04A20201AF4007743C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
