@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5823C653202296C30058C736 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823C652202296C30058C736 /* MovieCell.swift */; };
 		58ADD04A20201AF4007743C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ADD04920201AF4007743C1 /* AppDelegate.swift */; };
 		58ADD04F20201AF4007743C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58ADD04D20201AF4007743C1 /* Main.storyboard */; };
 		58ADD05120201AF4007743C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58ADD05020201AF4007743C1 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5823C652202296C30058C736 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		58ADD04620201AF4007743C1 /* Flix_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58ADD04920201AF4007743C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58ADD04E20201AF4007743C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				58ADD05020201AF4007743C1 /* Assets.xcassets */,
 				58ADD05220201AF4007743C1 /* LaunchScreen.storyboard */,
 				58ADD05520201AF4007743C1 /* Info.plist */,
+				5823C652202296C30058C736 /* MovieCell.swift */,
 			);
 			path = Flix_app;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				58ADD0782020339C007743C1 /* NowPlayingViewController.swift in Sources */,
 				58ADD04A20201AF4007743C1 /* AppDelegate.swift in Sources */,
+				5823C653202296C30058C736 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				58ADD07020201AF4007743C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58ADD07120201AF4007743C1 /* Build configuration list for PBXNativeTarget "Flix_appTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				58ADD07320201AF4007743C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58ADD07420201AF4007743C1 /* Build configuration list for PBXNativeTarget "Flix_appUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				58ADD07620201AF4007743C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

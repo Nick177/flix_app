@@ -26,11 +26,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="178" id="614-Jq-JS8">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="178" id="614-Jq-JS8" customClass="MovieCell" customModule="Flix_app" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="178"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="614-Jq-JS8" id="5lN-I9-cZL">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="177.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="177"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T6M-25-Far">
@@ -53,6 +53,10 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="overviewLabel" destination="VLX-tH-JCh" id="wba-HS-Xlb"/>
+                                            <outlet property="titleLabel" destination="HNh-ak-UBA" id="xEq-EO-cp4"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
